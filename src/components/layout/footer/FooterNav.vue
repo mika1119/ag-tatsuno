@@ -25,7 +25,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      padding: 1.6rem 1rem 0;
+      padding: 1.6rem 1rem;
     }
     &__item {
       width: auto;

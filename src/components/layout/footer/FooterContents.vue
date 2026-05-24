@@ -34,7 +34,7 @@
     padding: 3.2rem 0;
     @include display(md) {
       gap: 4.8rem 0;
-      padding: 6.4rem 4rem 0;
+      padding: 6.4rem 4rem;
     }
     &__text {
       font-size: clamp(1.3rem, 2.6vw, 1.8rem);

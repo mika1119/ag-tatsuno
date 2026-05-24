@@ -1,5 +1,6 @@
 <script setup>
   import BgSection from '@/components/section/BgSection.vue';
+  import PaddingSection from '@/components/section/PaddingSection.vue';
   import FooterContents from '@/components/layout/footer/FooterContents.vue';
   import FooterNav from '@/components/layout/footer/FooterNav.vue';
   import Copyright from '@/components/layout/footer/Copyright.vue';
@@ -7,11 +8,13 @@
 
 <template>
   <BgSection color="main">
-    <footer class="footer">
-      <FooterContents />
-      <FooterNav />
-      <Copyright />
-    </footer>
+    <PaddingSection>
+      <footer class="footer">
+        <FooterContents />
+        <FooterNav />
+        <Copyright />
+      </footer>
+    </PaddingSection>
   </BgSection>
 </template>
 
