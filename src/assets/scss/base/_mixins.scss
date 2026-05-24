@@ -1,0 +1,21 @@
+@use "sass:map";
+
+/* media query breakpoints
+-------------------------------*/
+$size: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+@mixin display($breakpoint) {
+  @media (min-width: map.get($size, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
