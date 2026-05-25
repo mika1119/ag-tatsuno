@@ -1,5 +1,5 @@
 <script setup>
-  import { FooterNavItems } from '@/data/footer-nav';
+  import { FooterNavItems } from '@/data/footerNav';
 </script>
 
 <template>

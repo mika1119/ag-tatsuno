@@ -11,8 +11,7 @@
 
 <template>
   <div class="flow-label-wrap">
-    <!-- TODO:アイコン画像の受け渡しを修正する -->
-    <img src="@/assets/images/icon/phone.png" class="flow-label-wrap__icon" alt="フローのアイコン">
+    <img :src="icon" class="flow-label-wrap__icon" alt="フローのアイコン">
     <div class="flow-label">
       <div class="flow-label__text">STEP</div>
       <div class="flow-label__num">{{ num }}</div>
@@ -29,7 +28,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.4rem 1rem;
     &__icon {
       width: clamp(3.2rem, 4vw, 4rem);
       height: auto;

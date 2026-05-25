@@ -1,6 +1,6 @@
 <script setup>
   import InfoButton from '@/components/layout/header/InfoButton.vue';
-  import { HeaderNavItems } from '@/data/header-nav';
+  import { HeaderNavItems } from '@/data/headerNav';
 
   defineProps({
     isOpen: Boolean
@@ -65,7 +65,7 @@
       width: 100%;
       height: auto;
       display: grid;
-      font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+      font-size: clamp(1.4rem, 2vw, 1.8rem);
       background-color: $white;
       transition: all 0.4s ease-in;
       padding: 1.4rem 1.6rem;
