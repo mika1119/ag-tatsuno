@@ -16,18 +16,15 @@
 <style lang="scss" scoped>
   .padding-section {
     width: 100%;
-    max-width: $xl;
     height: auto;
+    @include max-width;
     &_default {
-      margin: 3.2rem auto;
       padding: 0 1.2rem;
     }
     &_large {
-      margin: 3.2rem auto;
       padding: 0 2.8rem;
     }
     @include display(md) {
-      margin: 6.4rem auto;
       padding: 0 4.8rem;
     }
   }
