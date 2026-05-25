@@ -1,5 +1,5 @@
 <template>
-  <img src="@/assets/images/base-logo.webp" class="base-logo" alt="オートガレージTATSUNO">
+  <img src="@/assets/images/logo/base-logo.webp" class="base-logo" alt="オートガレージTATSUNO">
 </template>
 
 <style lang="scss" scoped>

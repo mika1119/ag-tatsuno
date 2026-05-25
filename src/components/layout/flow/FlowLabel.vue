@@ -12,7 +12,7 @@
 <template>
   <div class="flow-label-wrap">
     <!-- TODO:アイコン画像の受け渡しを修正する -->
-    <img src="@/assets/images/phone.png" class="flow-label-wrap__icon" alt="フローのアイコン">
+    <img src="@/assets/images/icon/phone.png" class="flow-label-wrap__icon" alt="フローのアイコン">
     <div class="flow-label">
       <div class="flow-label__text">STEP</div>
       <div class="flow-label__num">{{ num }}</div>
