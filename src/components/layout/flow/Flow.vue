@@ -5,7 +5,7 @@
   import FlowCard from '@/components/layout/flow/FlowCard.vue'
 
   defineProps({
-    title: {
+    lineTitle: {
       type: String
     },
     flowData: {
@@ -19,7 +19,7 @@
   <BgSection>
     <PaddingSection>
       <div class="flow">
-        <LineTitle :text="title" />
+        <LineTitle :text="lineTitle" />
         <FlowCard v-for="item in flowData" :key="item.num" :item="item" />
       </div>
     </PaddingSection>

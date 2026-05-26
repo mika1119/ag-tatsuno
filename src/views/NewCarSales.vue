@@ -5,5 +5,5 @@
 
 <template>
   <h1>新車販売</h1>
-  <Flow :flow-data="flowData" />
+  <Flow lineTitle="◎ご契約までの流れ" :flow-data="flowData" />
 </template>
