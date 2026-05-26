@@ -5,5 +5,5 @@
 
 <template>
   <h1>一般整備</h1>
-  <Flow :flow-data="flowData" />
+  <Flow title="◎サービス利用の流れ" :flow-data="flowData" />
 </template>
