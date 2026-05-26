@@ -6,7 +6,7 @@
 
 <template>
   <div :class="['info-button', `info-button_${device}`]">
-    <a class="info-button__link" href="store-guide">店舗案内</a>
+    <RouterLink :to="{ name: 'StoreGuide' }" class="info-button__link">店舗案内</RouterLink>
   </div>
 </template>
 
