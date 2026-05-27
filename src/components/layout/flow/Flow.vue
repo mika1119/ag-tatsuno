@@ -1,6 +1,4 @@
 <script setup>
-  import BgSection from '@/components/section/BgSection.vue';
-  import PaddingSection from '@/components/section/PaddingSection.vue';
   import LineTitle from '@/components/title/LineTitle.vue';
   import FlowCard from '@/components/layout/flow/FlowCard.vue'
 
@@ -16,14 +14,10 @@
 </script>
 
 <template>
-  <BgSection>
-    <PaddingSection>
-      <div class="flow">
-        <LineTitle :text="lineTitle" />
-        <FlowCard v-for="item in flowData" :key="item.num" :item="item" />
-      </div>
-    </PaddingSection>
-  </BgSection>
+  <div class="flow">
+    <LineTitle :text="lineTitle" />
+    <FlowCard v-for="item in flowData" :key="item.num" :item="item" />
+  </div>
 </template>
 
 <style lang="scss" scoped>

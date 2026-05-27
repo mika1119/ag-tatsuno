@@ -8,9 +8,9 @@
 </script>
 
 <template>
-  <section :class="['padding-section', `padding-section_${size}`]">
+  <div :class="['padding-section', `padding-section_${size}`]">
     <slot />
-  </section>
+  </div>
 </template>
 
 <style lang="scss" scoped>

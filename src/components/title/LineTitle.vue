@@ -18,7 +18,7 @@ defineProps({
 
 <style lang="scss" scoped>
   .line-title {
-    font-size: clamp(1.4rem, 3vw, 2.2rem);
+    font-size: clamp(1.4rem, 2.4vw, 2.2rem);
     font-weight: 600;
     border-bottom: 1px solid $color-separate;
     white-space: pre-line;

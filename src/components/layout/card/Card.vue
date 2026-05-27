@@ -1,6 +1,4 @@
 <script setup>
-  import BgSection from '@/components/section/BgSection.vue';
-  import PaddingSection from '@/components/section/PaddingSection.vue';
   import CardContent from '@/components/layout/card/CardContent.vue';
 
   defineProps({
@@ -12,13 +10,9 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <div class="card">
-        <CardContent v-for="item in cardData" :key="item.title" :item="item" />
-      </div>
-    </PaddingSection>
-  </BgSection>
+  <div class="card">
+    <CardContent v-for="item in cardData" :key="item.title" :item="item" />
+  </div>
 </template>
 
 <style lang="scss" scoped>

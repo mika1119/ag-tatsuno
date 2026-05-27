@@ -8,15 +8,24 @@
 </script>
 
 <template>
-  <div :class="['bg-section', `bg-section_${color}`]">
+  <section :class="['bg-section', `bg-section_${color}`]">
     <slot />
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
   .bg-section {
     width: 100%;
     height: auto;
+    padding: 3.2rem 0;
+    &:last-child {
+      padding: 0;
+    }
+    @include display(md) {
+      &:first-child {
+        padding: 6.4rem 0 3.2rem 0;
+      }
+    }
     &_white {
       background-color: $white;
     }
