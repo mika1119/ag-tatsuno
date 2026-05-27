@@ -45,7 +45,7 @@
     &__desc {
       font-size: clamp(1.3rem, 2vw, 1.8rem);
       display: grid;
-      gap: 1.6rem;
+      gap: 2.4rem;
       padding: 1.6rem 0 0 0;
     }
   }
