@@ -18,9 +18,6 @@
     width: 100%;
     height: auto;
     padding: 3.2rem 0;
-    &:last-child {
-      padding: 0;
-    }
     @include display(md) {
       &:first-child {
         padding: 6.4rem 0 3.2rem 0;
@@ -34,6 +31,7 @@
     }
     &_main {
       background-color: $color-main;
+      padding: 0;
     }
   }
 </style>
