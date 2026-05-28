@@ -1,9 +1,45 @@
 <script setup>
+  import BgSection from '@/components/section/BgSection.vue';
+  import PaddingSection from '@/components/section/PaddingSection.vue';
+  import PageTitle from '@/components/title/PageTitle.vue';
+  import Card from '@/components/layout/card/Card.vue';
+  import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales'
   import Flow from '@/components/layout/flow/Flow.vue'
   import { flowData } from '@/data/flow/newCarSales'
 </script>
 
 <template>
-  <h1>新車販売</h1>
-  <Flow lineTitle="◎ご契約までの流れ" :flow-data="flowData" />
+  <BgSection color="main-lightest">
+    <PaddingSection>
+      <PageTitle :label=false text="軽自動車" />
+      <Card :card-data="keiCarData" layout="grid" />
+    </PaddingSection>
+  </BgSection>
+
+  <BgSection color="main-lightest">
+    <PaddingSection>
+      <PageTitle :label=false text="乗用車" />
+      <Card :card-data="passengerCarData" layout="grid" />
+    </PaddingSection>
+  </BgSection>
+
+  <BgSection color="main-lightest">
+    <PaddingSection>
+      <PageTitle :label=false text="福祉車両" />
+      <Card :card-data="welfareCarData" layout="grid" />
+    </PaddingSection>
+  </BgSection>
+
+  <BgSection color="main-lightest">
+    <PaddingSection>
+      <PageTitle :label=false text="商用車" />
+      <Card :card-data="commercialCarData" layout="grid" />
+    </PaddingSection>
+  </BgSection>
+
+  <BgSection>
+    <PaddingSection>
+      <Flow lineTitle="◎ご契約までの流れ" :flow-data="flowData" />
+    </PaddingSection>
+  </BgSection>
 </template>
