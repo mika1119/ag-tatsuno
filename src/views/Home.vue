@@ -15,7 +15,7 @@
   <BgSection color="main-lightest">
     <PaddingSection>
       <SectionTitle text="サービス一覧" />
-      <Card :card-data="cardData" />
+      <Card :card-data="cardData" layout="grid" />
     </PaddingSection>
   </BgSection>
 </template>

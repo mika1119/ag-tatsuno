@@ -18,9 +18,11 @@
       </div>
     </div>
 
-    <RouterLink v-if="item.link" :to="item.link" class="card-content-link">
-      <div class="card-content-link__text">もっと詳しく ＞＞＞</div>
-    </RouterLink>
+    <div class="card-content-link-wrap">
+      <RouterLink v-if="item.link" :to="item.link" class="card-content-link">
+        <div class="card-content-link__text">もっと詳しく ＞＞＞</div>
+      </RouterLink>
+    </div>
 
     <div v-if="item.description" class="card-content__desc">
       <div v-for="paragraph in item.description">
@@ -65,14 +67,20 @@
     }
   }
 
+  .card-content-link-wrap {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid $color-separate;
+  }
+
   .card-content-link {
     width: fit-content;
     height: auto;
     display: block;
     margin: 0 0 0 auto;
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 1.6rem 0;
     @include display(md) {
-      padding: 3rem 0 1rem 0;
+      padding: 3rem 0 1.6rem 0;
     }
     &__text {
       font-size: clamp(1.2rem, 2.4vw, 1.6rem);
@@ -81,6 +89,9 @@
       text-align: end;
       transition: all 0.4s ease-in;
       &:hover {
+        box-shadow: inset 0 -1px 0 $color-main-light;
+      }
+      &:active {
         box-shadow: inset 0 -1px 0 $color-main-light;
       }
     }
