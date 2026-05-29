@@ -41,10 +41,10 @@
     display: grid;
     place-items: center;
     &__label {
-      font-size: clamp(1.4rem, 2.4vw, 2.2rem);
+      font-size: $font-lg;
     }
     &__text {
-      font-size: clamp(1.6rem, 3.4vw, 3.8rem);
+      font-size: $font-xl;
     }
   }
 </style>

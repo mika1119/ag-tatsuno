@@ -44,11 +44,11 @@
     transition: all 0.4s ease-in;
     padding: 1rem;
     &__text {
-      font-size: clamp(1.4rem, 2.6vw, 2.4rem);
+      font-size: $font-lg;
       font-weight: 400;
     }
     &__icon {
-      font-size: clamp(1.4rem, 2.6vw, 2.4rem);
+      font-size: $font-lg;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);

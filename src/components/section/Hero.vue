@@ -63,10 +63,11 @@
       padding: 2rem 1rem 2.6rem;
     }
     &__large {
-      font-size: clamp(1.6rem, 4.4vw, 5.2rem);
+      font-size: clamp(1.8rem, 4.4vw, 5.2rem);
+      white-space: nowrap;
     }
     &__small {
-      font-size: clamp(1.2rem, 3.2vw, 4rem);
+      font-size: clamp(1.3rem, 3.2vw, 3.8rem);
     }
   }
 </style>

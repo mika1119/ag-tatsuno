@@ -14,7 +14,7 @@
 
 <style lang="scss" scoped>
   .white-text {
-    font-size: clamp(1.4rem, 2.6vw, 2.4rem);
+    font-size: $font-lg;
     color: $white;
     text-align: center;
     padding: 1rem;

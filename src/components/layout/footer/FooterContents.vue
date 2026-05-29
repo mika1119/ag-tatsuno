@@ -37,9 +37,10 @@
       padding: 6.4rem 4rem;
     }
     &__text {
-      font-size: clamp(1.3rem, 2.6vw, 1.8rem);
+      font-size: $font-md;
       color: $white;
       border-left: 1px solid $white;
+      margin: 0 0 0 1rem;
       padding: 1rem 1rem 1rem 2rem;
     }
   }

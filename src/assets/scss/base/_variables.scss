@@ -16,6 +16,13 @@ $color-base: #333333;
 $white: #FFFFFF;
 $black: #000000;
 
+/* font-size
+-------------------------------*/
+$font-sm: clamp(1rem, 7px + 1vw, 1.3rem);
+$font-md: clamp(1.2rem, 9px + 1vw, 1.8rem);
+$font-lg: clamp(1.4rem, 11px + 1vw, 2.3rem);
+$font-xl: clamp(1.7rem, 3.2vw, 3.75rem);
+
 /* size
 -------------------------------*/
 $sm: 576px;

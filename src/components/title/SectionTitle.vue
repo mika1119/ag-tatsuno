@@ -21,7 +21,7 @@
     align-items: center;
     gap: 1.6rem;
     &__text {
-      font-size: clamp(1.6rem, 3.4vw, 3.8rem);
+      font-size: $font-xl;
     }
   }
 </style>

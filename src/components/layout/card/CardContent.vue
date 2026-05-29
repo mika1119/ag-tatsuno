@@ -18,8 +18,8 @@
       </div>
     </div>
 
-    <div class="card-content-link-wrap">
-      <RouterLink v-if="item.link" :to="item.link" class="card-content-link">
+    <div v-if="item.link" class="card-content-link-wrap">
+      <RouterLink :to="item.link" class="card-content-link">
         <div class="card-content-link__text">もっと詳しく ＞＞＞</div>
       </RouterLink>
     </div>
@@ -49,7 +49,7 @@
       object-fit: cover;
     }
     &__desc {
-      font-size: clamp(1.3rem, 2vw, 1.8rem);
+      font-size: $font-md;
       display: grid;
       gap: 2.4rem;
       padding: 1.6rem 0 0 0;
@@ -61,9 +61,9 @@
     height: auto;
     padding: 1rem 0 0 0;
     &__item {
-      font-size: clamp(1.2rem, 2vw, 1.8rem);
+      font-size: $font-md;
       display: grid;
-      grid-template-columns: clamp(16rem, 30vw, 24rem) auto;
+      grid-template-columns: clamp(16rem, 40vw, 24rem) auto;
     }
   }
 
@@ -83,7 +83,7 @@
       padding: 3rem 0 1.6rem 0;
     }
     &__text {
-      font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+      font-size: $font-md;
       font-weight: 600;
       color: $color-main-light;
       text-align: end;

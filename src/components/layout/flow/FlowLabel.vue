@@ -27,10 +27,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.4rem;
     padding: 0.4rem 1rem;
     &__icon {
-      width: clamp(3.2rem, 4vw, 4rem);
+      width: clamp(2.2rem, 4vw, 3rem);
       height: auto;
       filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
     }
@@ -44,10 +44,10 @@
     align-items: baseline;
     gap: 0.2rem;
     &__text {
-      font-size: clamp(1.4rem, 3vw, 1.6rem);
+      font-size: $font-sm;
     }
     &__num {
-      font-size: clamp(1.6rem, 4vw, 2rem);
+      font-size: $font-md;
     }
   }
 </style>

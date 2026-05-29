@@ -16,7 +16,7 @@
   .belt-title {
     width: 100%;
     height: auto;
-    font-size: clamp(1.4rem, 2.4vw, 1.8rem);
+    font-size: $font-md;
     font-weight: 900;
     color: $white;
     background-color: $color-main;

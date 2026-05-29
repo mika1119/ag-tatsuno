@@ -23,7 +23,7 @@
       padding: 1.6rem;
     }
     &__text{
-      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-size: $font-lg;
       font-weight: 500;
       color: $white;
       letter-spacing: 0.2rem;

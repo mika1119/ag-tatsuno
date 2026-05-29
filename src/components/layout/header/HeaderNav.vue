@@ -65,7 +65,7 @@
       width: 100%;
       height: auto;
       display: grid;
-      font-size: clamp(1.4rem, 2vw, 1.8rem);
+      font-size: $font-md;
       background-color: $white;
       transition: all 0.4s ease-in;
       padding: 1.4rem 1.6rem;
