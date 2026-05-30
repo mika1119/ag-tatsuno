@@ -9,7 +9,7 @@
 <template>
   <div class="card-content">
     <img v-if="item.image" :src="item.image" class="card-content__image" :alt="item.title">
-    <LineTitle :text="item.title" :position="item.position" />
+    <LineTitle :text="item.title" :size="item.size" :position="item.position" />
 
     <div v-if="item.gridList" class="card-content-grid-list">
       <div v-for="list in item.gridList" class="card-content-grid-list__item">
