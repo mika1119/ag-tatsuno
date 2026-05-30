@@ -37,6 +37,9 @@
       @include display(lg) {
         grid-template-columns: repeat(3, 1fr);
       }
+      & .card-content {
+        padding: 1.6rem;
+      }
     }
   }
 </style>
