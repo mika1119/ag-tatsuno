@@ -8,7 +8,7 @@
 
 <template>
   <BgSection color="main">
-    <PaddingSection>
+    <PaddingSection y="none">
       <footer class="footer">
         <FooterContents />
         <FooterNav />

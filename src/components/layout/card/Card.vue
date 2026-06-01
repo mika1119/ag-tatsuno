@@ -25,10 +25,10 @@
     height: auto;
     display: grid;
     gap: 1.6rem;
-    padding: 1.6rem 0;
+    padding: 1.6rem 0 0 0;
     @include display(md) {
       gap: 3.2rem;
-      padding: 3.2rem 0;
+      padding: 3.2rem 0 0 0;
     }
     &_grid {
       @include display(md) {

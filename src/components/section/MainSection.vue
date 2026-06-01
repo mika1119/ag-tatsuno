@@ -8,8 +8,6 @@
   .main {
     width: 100%;
     height: auto;
-    display: grid;
-    gap: 3.2rem;
     margin: 6rem 0 0 0;
     @include display(md) {
       margin: calc(9rem + 5rem) 0 0 0;
