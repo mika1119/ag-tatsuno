@@ -6,7 +6,7 @@
 
 <template>
   <BgSection>
-    <PaddingSection x="large" y="top-only">
+    <PaddingSection x="large">
       <h2 class="introduction">
         <div class="introduction__head">
           <BaseLogo />

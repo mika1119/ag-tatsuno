@@ -22,6 +22,9 @@
     background-color: $color-main;
     display: grid;
     place-items: center;
-    padding: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    @include display(md) {
+      padding: 1.6rem;
+    }
   }
 </style>

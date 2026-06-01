@@ -5,7 +5,7 @@
 
 <template>
   <BgSection>
-    <PaddingSection>
+    <PaddingSection y="bottom-only">
       <div class="hero">
         <div class="hero-gallery hero-gallery_top">
           <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">

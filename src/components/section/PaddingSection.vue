@@ -40,10 +40,10 @@
         padding-block: 6.4rem;
       }
     }
-    &_y-top-only {
-      padding-block: 3.2rem 0;
+    &_y-bottom-only {
+      padding-block: 0 3.2rem;
       @include display(md) {
-        padding-block: 6.4rem 0;
+        padding-block: 0 6.4rem;
       }
     }
     &_y-none {

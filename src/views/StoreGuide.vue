@@ -1,3 +1,16 @@
+<script setup>
+  import BgSection from '@/components/section/BgSection.vue';
+  import PaddingSection from '@/components/section/PaddingSection.vue';
+  import Introduction from '@/components/section/Introduction.vue';
+  import Infomation from '@/components/layout/store/Infomation.vue';
+</script>
+
 <template>
-  <h1>店舗案内</h1>
+  <Introduction />
+
+  <BgSection>
+    <PaddingSection x="large">
+      <Infomation />
+    </PaddingSection>
+  </BgSection>
 </template>
