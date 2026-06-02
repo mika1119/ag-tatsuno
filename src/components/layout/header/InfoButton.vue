@@ -35,7 +35,6 @@
       width: 100%;
       height: auto;
       display: block;
-      font-size: $font-md;
       font-weight: 400;
       text-align: center;
       background: linear-gradient(180deg, $white 0%, $white 60%, $color-gray 100%);

@@ -36,7 +36,6 @@
       padding: 3.2rem;
     }
     &__desc {
-      font-size: $font-md;
       color: $color-main-light;
     }
   }
@@ -48,7 +47,6 @@
     place-items: center;
     gap: 1rem;
     &__title {
-      font-size: $font-md;
       font-weight: 400;
       color: $color-main-light;
     }

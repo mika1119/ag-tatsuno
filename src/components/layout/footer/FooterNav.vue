@@ -33,7 +33,6 @@
       padding: 0 1.6rem;
     }
     &__link {
-      font-size: $font-md;
       color: $white;
       &:hover {
         border-bottom: 1px solid $white;

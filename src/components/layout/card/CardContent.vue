@@ -49,7 +49,6 @@
       object-fit: cover;
     }
     &__desc {
-      font-size: $font-md;
       display: grid;
       gap: 2.4rem;
       padding: 1.6rem 0 0 0;
@@ -61,7 +60,6 @@
     height: auto;
     padding: 1rem 0 0 0;
     &__item {
-      font-size: $font-md;
       display: grid;
       grid-template-columns: clamp(16rem, 40vw, 24rem) auto;
     }
@@ -83,7 +81,6 @@
       padding: 3rem 0 1.6rem 0;
     }
     &__text {
-      font-size: $font-md;
       font-weight: 600;
       color: $color-main-light;
       text-align: end;

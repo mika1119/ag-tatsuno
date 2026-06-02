@@ -37,7 +37,6 @@
       padding: 6.4rem 4rem;
     }
     &__text {
-      font-size: $font-md;
       color: $white;
       border-left: 1px solid $white;
       margin: 0 0 0 1rem;

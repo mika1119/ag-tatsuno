@@ -46,7 +46,6 @@
       }
     }
     &__value {
-      font-size: $font-md;
       white-space: pre-line;
       border-bottom: 1px solid $color-gray-dark;
       padding: 1rem 1rem 1rem 3rem;

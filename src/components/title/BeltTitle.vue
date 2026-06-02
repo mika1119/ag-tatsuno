@@ -16,7 +16,6 @@
   .belt-title {
     width: 100%;
     height: auto;
-    font-size: $font-md;
     font-weight: 900;
     color: $white;
     background-color: $color-main;

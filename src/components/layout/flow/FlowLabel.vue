@@ -46,8 +46,5 @@
     &__text {
       font-size: $font-sm;
     }
-    &__num {
-      font-size: $font-md;
-    }
   }
 </style>
