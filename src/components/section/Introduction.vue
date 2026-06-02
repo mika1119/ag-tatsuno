@@ -8,9 +8,9 @@
   <BgSection>
     <PaddingSection x="large">
       <h2 class="introduction">
-        <div class="introduction__head">
+        <div class="introduction-head">
           <BaseLogo />
-          <div class="introduction__title">オートガレージ<span>TATSUNO</span></div>
+          <div class="introduction-head__title">オートガレージTATSUNO</div>
         </div>
 
         <div class="introduction__text">
@@ -29,31 +29,36 @@
     height: auto;
     display: grid;
     place-items: center;
-    gap: 1rem;
-    &__head {
-      display: grid;
-      grid-template-columns: clamp(8rem, 18vw, 18rem) auto;
-      justify-content: center;
-      align-items: center;
-      gap: 0.4rem;
-    }
-    &__title {
-      font-size: clamp(1.6rem, 5vw, 5rem);
-      font-weight: 400;
-      white-space: nowrap;
-      transform: scale(1, 1.2);
-      & span {
-        letter-spacing: 0.1em;
-      }
+    gap: 0.6rem;
+    @include display(md) {
+      width: 80%;
+      margin: 0 auto;
     }
     &__text {
+      font-size: clamp(0.9rem, calc(-0.1rem + 2.8vw), 2rem);
+      font-weight: 400;
+      letter-spacing: clamp(0.1rem, calc(-0.2rem + 0.6vw), 0.3rem);
       display: grid;
       place-items: center;
       gap: 0.4rem;
-      p {
-        font-size: clamp(1rem, 2.4vw, 2.4rem);
-        font-weight: 400;
-        letter-spacing: 0.1em;
+      @include display(md) {
+        font-size: clamp(1.5rem, calc(-0.4rem + 2.3vw), 2.4rem);
+      }
+    }
+  }
+
+  .introduction-head {
+    display: grid;
+    grid-template-columns: 20% max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    &__title {
+      font-size: clamp(2rem, calc(-0.4rem + 6.4vw), 4.5rem);
+      font-weight: 400;
+      transform: scale(1, 1.1);
+      @include display(md) {
+        font-size: clamp(3.4rem, calc(-0.3rem + 4.7vw), 5.4rem);
       }
     }
   }
