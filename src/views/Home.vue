@@ -6,6 +6,7 @@
   import Hero from '@/components/section/Hero.vue';
   import Card from '@/components/layout/card/Card.vue';
   import { cardData } from '@/data/card/home'
+  import Access from '@/components/layout/store/Access.vue';
 </script>
 
 <template>
@@ -16,6 +17,12 @@
     <PaddingSection>
       <SectionTitle text="サービス一覧" />
       <Card :card-data="cardData" layout="grid" />
+    </PaddingSection>
+  </BgSection>
+
+  <BgSection>
+    <PaddingSection>
+      <Access />
     </PaddingSection>
   </BgSection>
 </template>
