@@ -8,9 +8,9 @@
     <PaddingSection y="bottom-only">
       <div class="hero">
         <div class="hero-gallery hero-gallery_top">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
         </div>
 
         <div class="hero-text">
@@ -19,10 +19,10 @@
         </div>
 
         <div class="hero-gallery hero-gallery_bottom">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
-          <img src="@/assets/images/sample.jpg" class="hero-gallery__image" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
+          <img src="@/assets/images/sample.jpg" alt="">
         </div>
       </div>
     </PaddingSection>
@@ -41,14 +41,19 @@
     display: grid;
     &_top {
       grid-template-columns: repeat(3, 1fr);
+      & img {
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+      }
     }
     &_bottom {
       grid-template-columns: repeat(4, 1fr);
-    }
-    &__image {
-      width: 100%;
-      aspect-ratio: 4 / 3;
-      object-fit: cover;
+      & img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
     }
   }
   
