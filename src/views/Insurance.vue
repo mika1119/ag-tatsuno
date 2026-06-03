@@ -7,10 +7,12 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle text="保険" />
-      <Card :card-data="cardData" />
-    </PaddingSection>
-  </BgSection>
+  <div class="insurance">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle text="保険" />
+        <Card :card-data="cardData" />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

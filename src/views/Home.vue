@@ -10,19 +10,21 @@
 </script>
 
 <template>
-  <Introduction />
-  <Hero />
+  <div class="home">
+    <Introduction />
+    <Hero />
 
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <SectionTitle text="サービス一覧" />
-      <Card :card-data="cardData" layout="grid" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <SectionTitle text="サービス一覧" />
+        <Card :card-data="cardData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection>
-      <Access />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection>
+        <Access />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

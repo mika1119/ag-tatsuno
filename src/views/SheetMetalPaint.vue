@@ -9,16 +9,18 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle text="板金塗装" />
-      <Card :card-data="cardData" />
-    </PaddingSection>
-  </BgSection>
+  <div class="sheet-metal-paint">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle text="板金塗装" />
+        <Card :card-data="cardData" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection>
-      <Flow lineTitle="◎サービス利用の流れ" :flow-data="flowData" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection>
+        <Flow lineTitle="◎サービス利用の流れ" :flow-data="flowData" />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

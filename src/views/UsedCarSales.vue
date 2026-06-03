@@ -9,16 +9,18 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle text="中古車販売" />
-      <Card :card-data="cardData" />
-    </PaddingSection>
-  </BgSection>
+  <div class="used-car-sales">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle text="中古車販売" />
+        <Card :card-data="cardData" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection>
-      <Flow lineTitle="◎中古車購入までの流れ" :flow-data="flowData" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection>
+        <Flow lineTitle="◎中古車購入までの流れ" :flow-data="flowData" />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

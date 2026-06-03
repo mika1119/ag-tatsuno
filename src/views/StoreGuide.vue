@@ -7,17 +7,19 @@
 </script>
 
 <template>
-  <Introduction />
+  <div class="store-guide">
+    <Introduction />
 
-  <BgSection>
-    <PaddingSection x="large">
-      <Access />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection x="large">
+        <Access />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection x="large">
-      <Infomation />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection x="large">
+        <Infomation />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

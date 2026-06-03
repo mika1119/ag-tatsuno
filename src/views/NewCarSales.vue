@@ -10,43 +10,45 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <ImageModal />
-    </PaddingSection>
-  </BgSection>
+  <div class="new-car-sales">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <ImageModal />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle :label=false text="軽自動車" />
-      <Card :card-data="keiCarData" layout="grid" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle :label=false text="軽自動車" />
+        <Card :card-data="keiCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle :label=false text="乗用車" />
-      <Card :card-data="passengerCarData" layout="grid" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle :label=false text="乗用車" />
+        <Card :card-data="passengerCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle :label=false text="福祉車両" />
-      <Card :card-data="welfareCarData" layout="grid" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle :label=false text="福祉車両" />
+        <Card :card-data="welfareCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle :label=false text="商用車" />
-      <Card :card-data="commercialCarData" layout="grid" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle :label=false text="商用車" />
+        <Card :card-data="commercialCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection>
-      <Flow lineTitle="◎ご契約までの流れ" :flow-data="flowData" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection>
+        <Flow lineTitle="◎ご契約までの流れ" :flow-data="flowData" />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>

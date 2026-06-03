@@ -9,16 +9,18 @@
 </script>
 
 <template>
-  <BgSection color="main-lightest">
-    <PaddingSection>
-      <PageTitle text="車検整備" />
-      <Card :card-data="cardData" />
-    </PaddingSection>
-  </BgSection>
+  <div class="vehicle-inspection">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <PageTitle text="車検整備" />
+        <Card :card-data="cardData" />
+      </PaddingSection>
+    </BgSection>
 
-  <BgSection>
-    <PaddingSection>
-      <Flow lineTitle="◎サービス利用の流れ" :flow-data="flowData" />
-    </PaddingSection>
-  </BgSection>
+    <BgSection>
+      <PaddingSection>
+        <Flow lineTitle="◎サービス利用の流れ" :flow-data="flowData" />
+      </PaddingSection>
+    </BgSection>
+  </div>
 </template>
