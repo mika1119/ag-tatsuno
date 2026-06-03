@@ -2,6 +2,7 @@
   import BgSection from '@/components/section/BgSection.vue';
   import PaddingSection from '@/components/section/PaddingSection.vue';
   import PageTitle from '@/components/title/PageTitle.vue';
+  import ImageModal from '@/components/layout/modal/ImageModal.vue';
   import Card from '@/components/layout/card/Card.vue';
   import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales'
   import Flow from '@/components/layout/flow/Flow.vue'
@@ -9,6 +10,12 @@
 </script>
 
 <template>
+  <BgSection color="main-lightest">
+    <PaddingSection>
+      <ImageModal />
+    </PaddingSection>
+  </BgSection>
+
   <BgSection color="main-lightest">
     <PaddingSection>
       <PageTitle :label=false text="軽自動車" />
