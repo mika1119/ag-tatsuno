@@ -30,6 +30,7 @@
     display: grid;
     place-items: center;
     gap: 0.6rem;
+    padding: 1.6rem 0;
     @include display(md) {
       width: 80%;
       margin: 0 auto;
