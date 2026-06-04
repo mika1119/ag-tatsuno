@@ -1,4 +1,6 @@
-<script setup>  
+<script setup>
+  import decor from '@/assets/images/decoration.webp';
+
   defineProps({
     label: {
       type: Boolean,
@@ -12,12 +14,12 @@
 
 <template>
   <h2 class="page-title">
-    <img src="@/assets/images/decoration.webp" class="page-title__image" alt="ページタイトルの装飾" />
+    <img :src="decor" class="page-title__image" alt="ページタイトルの装飾" />
     <div class="page-title-group">
       <span v-if="label" class="page-title-group__label">車・バイク</span>
       <div class="page-title-group__text">{{ text }}</div>
     </div>
-    <img src="@/assets/images/decoration.webp" class="page-title__image" alt="ページタイトルの装飾" />
+    <img :src="decor" class="page-title__image" alt="ページタイトルの装飾" />
   </h2>
 </template>
 
