@@ -1,9 +1,13 @@
-import phoneIcon from '@/assets/images/icon/phone.png'
+import icon1 from '@/assets/images/icon/icon-01.webp'
+import icon2 from '@/assets/images/icon/icon-02.webp'
+import icon3 from '@/assets/images/icon/icon-03.webp'
+import icon4 from '@/assets/images/icon/icon-04.webp'
+import icon5 from '@/assets/images/icon/icon-05.webp'
 
 export const flowData = [
   {
     num: '1',
-    icon: phoneIcon,
+    icon: icon1,
     title: 'ご予約',
     description: [
       '車検は有効期限の1か月前から受付可能です。',
@@ -12,7 +16,7 @@ export const flowData = [
   },
   {
     num: '2',
-    icon: phoneIcon,
+    icon: icon2,
     title: '点検・検査',
     description: [
       '国家資格を持った整備士が検査ラインにて点検・検査を行います。',
@@ -21,7 +25,7 @@ export const flowData = [
   },
   {
     num: '3',
-    icon: phoneIcon,
+    icon: icon3,
     title: 'ご説明・お見積り',
     description: [
       'お客様の立会いのもとで、整備士がご説明をいたします。',
@@ -32,7 +36,7 @@ export const flowData = [
   },
   {
     num: '4',
-    icon: phoneIcon,
+    icon: icon4,
     title: '整備',
     description: [
       'お見積りご納得いただき、作業の承諾をいただけましたら整備作業を行っていきます。',
@@ -41,7 +45,7 @@ export const flowData = [
   },
   {
     num: '5',
-    icon: phoneIcon,
+    icon: icon5,
     title: '作業完了',
     description: [
       '最終検査完了後に整備結果のご説明をした上で、ご精算とさせていただきます。',

@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.4rem;
+    gap: 1rem;
     padding: 0.4rem 1rem;
     &__icon {
       width: clamp(2.2rem, 4vw, 3rem);
