@@ -1,4 +1,12 @@
 <script setup>
+  import hero1 from '@/assets/images/service/service-05.webp';
+  import hero2 from '@/assets/images/service/service-09.webp';
+  import hero3 from '@/assets/images/service/service-10.webp';
+  import hero4 from '@/assets/images/service/service-11.webp';
+  import hero5 from '@/assets/images/service/service-02.webp';
+  import hero6 from '@/assets/images/service/service-07.webp';
+  import hero7 from '@/assets/images/service/service-01.webp';
+
   import BgSection from '@/components/section/BgSection.vue';
   import PaddingSection from '@/components/section/PaddingSection.vue';
 </script>
@@ -8,9 +16,9 @@
     <PaddingSection y="bottom-only">
       <div class="hero">
         <div class="hero-gallery hero-gallery_top">
-          <img src="@/assets/images/sample.jpg" alt="">
-          <img src="@/assets/images/sample.jpg" alt="">
-          <img src="@/assets/images/sample.jpg" alt="">
+          <img :src="hero1" class="hero-gallery__image" alt="">
+          <img :src="hero2" class="hero-gallery__image" alt="">
+          <img :src="hero3" class="hero-gallery__image" alt="">
         </div>
 
         <div class="hero-text">
@@ -19,10 +27,10 @@
         </div>
 
         <div class="hero-gallery hero-gallery_bottom">
-          <img src="@/assets/images/sample.jpg" alt="">
-          <img src="@/assets/images/sample.jpg" alt="">
-          <img src="@/assets/images/sample.jpg" alt="">
-          <img src="@/assets/images/sample.jpg" alt="">
+          <img :src="hero4" class="hero-gallery__image" alt="">
+          <img :src="hero5" class="hero-gallery__image" alt="">
+          <img :src="hero6" class="hero-gallery__image" alt="">
+          <img :src="hero7" class="hero-gallery__image" alt="">
         </div>
       </div>
     </PaddingSection>
@@ -41,19 +49,14 @@
     display: grid;
     &_top {
       grid-template-columns: repeat(3, 1fr);
-      & img {
-        width: 100%;
-        aspect-ratio: 3 / 2;
-        object-fit: cover;
-      }
     }
     &_bottom {
       grid-template-columns: repeat(4, 1fr);
-      & img {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        object-fit: cover;
-      }
+    }
+    &__image {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
     }
   }
   

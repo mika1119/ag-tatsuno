@@ -30,10 +30,10 @@
     display: grid;
     place-items: center;
     gap: 0.6rem;
-    padding: 1.6rem 0;
     @include display(md) {
       width: 80%;
       margin: 0 auto;
+      padding: 1.6rem 0;
     }
     &__text {
       font-size: clamp(0.9rem, calc(-0.1rem + 2.8vw), 2rem);
