@@ -23,7 +23,7 @@
   <Header />
   <MainSection>
     <RouterView v-slot="{ Component }">
-      <Transition name="fade" mode="out-in">
+      <Transition name="fade">
         <component :is="Component" />
       </Transition>
     </RouterView>

@@ -72,9 +72,14 @@ const router = createRouter({
   routes,
 
   scrollBehavior() {
-    return {
-      top: 0
-    }
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve({
+          top: 0,
+          behavior: 'auto'
+        })
+      }, 400)
+    })
   }
 })
 
