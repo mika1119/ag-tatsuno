@@ -1,5 +1,9 @@
+<script setup>
+  import logo from '@/assets/images/logo/base-logo.webp';
+</script>
+
 <template>
-  <img src="@/assets/images/logo/base-logo.webp" class="base-logo" alt="オートガレージTATSUNO">
+  <img :src="logo" class="base-logo" alt="オートガレージTATSUNO">
 </template>
 
 <style lang="scss" scoped>
