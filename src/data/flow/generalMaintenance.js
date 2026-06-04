@@ -1,8 +1,8 @@
-import icon1 from '@/assets/images/icon/icon-01.webp'
-import icon2 from '@/assets/images/icon/icon-02.webp'
-import icon3 from '@/assets/images/icon/icon-03.webp'
-import icon4 from '@/assets/images/icon/icon-04.webp'
-import icon5 from '@/assets/images/icon/icon-05.webp'
+import icon1 from '@/assets/images/icon/icon-01.webp';
+import icon2 from '@/assets/images/icon/icon-02.webp';
+import icon3 from '@/assets/images/icon/icon-03.webp';
+import icon4 from '@/assets/images/icon/icon-04.webp';
+import icon5 from '@/assets/images/icon/icon-05.webp';
 
 export const flowData = [
   {

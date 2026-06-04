@@ -1,4 +1,4 @@
-import sectionImage from '@/assets/images/sample.jpg'
+import sectionImage from '@/assets/images/service/service-03.webp';
 
 export const cardData = [
   {

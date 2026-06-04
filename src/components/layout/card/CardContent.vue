@@ -8,7 +8,7 @@
 
 <template>
   <div class="card-content">
-    <img v-if="item.image" :src="item.image" class="card-content__image" :alt="item.title">
+    <img v-if="item.image" :src="item.image" :class="['card-content__image', item.fit ? 'card-content__image_contain' : '']" :alt="item.title">
     <LineTitle :text="item.title" :size="item.size" :position="item.position" />
 
     <div v-if="item.gridList" class="card-content-grid-list">
@@ -47,6 +47,9 @@
       width: 100%;
       aspect-ratio: 3 / 2;
       object-fit: cover;
+      &_contain {
+        object-fit: contain;
+      }
     }
     &__desc {
       display: grid;
