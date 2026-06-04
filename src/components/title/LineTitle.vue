@@ -15,9 +15,9 @@ defineProps({
 </script>
 
 <template>
-  <div :class="['line-title', `line-title_${size}`, `line-title_${position}`]">
+  <h3 :class="['line-title', `line-title_${size}`, `line-title_${position}`]">
     {{ text }}
-  </div>
+  </h3>
 </template>
 
 <style lang="scss" scoped>
