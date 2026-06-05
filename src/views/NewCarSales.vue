@@ -5,6 +5,7 @@
   import ImageModal from '@/components/layout/modal/ImageModal.vue';
   import Card from '@/components/layout/card/Card.vue';
   import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales'
+  import SuzukiLogo from '@/components/logo/SuzukiLogo.vue';
   import Flow from '@/components/layout/flow/Flow.vue'
   import { flowData } from '@/data/flow/newCarSales'
 </script>
@@ -25,9 +26,21 @@
     </BgSection>
 
     <BgSection color="main-lightest">
+      <PaddingSection y="bottom-only">
+        <SuzukiLogo />
+      </PaddingSection>
+    </BgSection>
+
+    <BgSection color="main-lightest">
       <PaddingSection>
         <PageTitle :label=false text="乗用車" />
         <Card :card-data="passengerCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
+
+    <BgSection color="main-lightest">
+      <PaddingSection y="bottom-only">
+        <SuzukiLogo />
       </PaddingSection>
     </BgSection>
 
@@ -39,9 +52,21 @@
     </BgSection>
 
     <BgSection color="main-lightest">
+      <PaddingSection y="bottom-only">
+        <SuzukiLogo />
+      </PaddingSection>
+    </BgSection>
+
+    <BgSection color="main-lightest">
       <PaddingSection>
         <PageTitle :label=false text="商用車" />
         <Card :card-data="commercialCarData" layout="grid" />
+      </PaddingSection>
+    </BgSection>
+
+    <BgSection color="main-lightest">
+      <PaddingSection y="bottom-only">
+        <SuzukiLogo />
       </PaddingSection>
     </BgSection>
 
