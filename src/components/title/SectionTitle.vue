@@ -1,5 +1,15 @@
-<script setup>  
+<script setup>
+  import SuzukiLogo from '@/components/logo/SuzukiLogo.vue';
+
   defineProps({
+    logo: {
+      type: Boolean,
+      default: false
+    },
+    color: {
+      type: String,
+      default: "base"
+    },
     text: {
       type: String
     }
@@ -8,7 +18,8 @@
 
 <template>
   <h2 class="section-title">
-    <div class="section-title__text">{{ text }}</div>
+    <SuzukiLogo v-if="logo" />
+    <div :class="['section-title__text', `section-title_${color}`]">{{ text }}</div>
   </h2>
 </template>
 
@@ -20,8 +31,16 @@
     justify-content: center;
     align-items: center;
     gap: 1.6rem;
+    &_main {
+      color: $color-main;
+    }
     &__text {
       font-size: $font-xl;
+    }
+    & img {
+      width: auto;
+      height: clamp(2rem, 4vw, 3.6rem);
+      padding: 0.4rem 0 0 0;
     }
   }
 </style>

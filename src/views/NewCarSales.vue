@@ -1,17 +1,24 @@
 <script setup>
   import BgSection from '@/components/section/BgSection.vue';
   import PaddingSection from '@/components/section/PaddingSection.vue';
+  import SectionTitle from '@/components/title/SectionTitle.vue';
   import PageTitle from '@/components/title/PageTitle.vue';
   import ImageModal from '@/components/layout/modal/ImageModal.vue';
   import Card from '@/components/layout/card/Card.vue';
   import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales'
-  import SuzukiLogo from '@/components/logo/SuzukiLogo.vue';
+  import SuzukiLinkLogo from '@/components/logo/SuzukiLinkLogo.vue';
   import Flow from '@/components/layout/flow/Flow.vue'
   import { flowData } from '@/data/flow/newCarSales'
 </script>
 
 <template>
   <div class="new-car-sales">
+    <BgSection color="main-lightest">
+      <PaddingSection>
+        <SectionTitle :logo=true color="main" text="新車取り扱い店" />
+      </PaddingSection>
+    </BgSection>
+
     <BgSection color="main-lightest">
       <PaddingSection>
         <ImageModal />
@@ -27,7 +34,7 @@
 
     <BgSection color="main-lightest">
       <PaddingSection y="bottom-only">
-        <SuzukiLogo />
+        <SuzukiLinkLogo />
       </PaddingSection>
     </BgSection>
 
@@ -40,7 +47,7 @@
 
     <BgSection color="main-lightest">
       <PaddingSection y="bottom-only">
-        <SuzukiLogo />
+        <SuzukiLinkLogo />
       </PaddingSection>
     </BgSection>
 
@@ -53,7 +60,7 @@
 
     <BgSection color="main-lightest">
       <PaddingSection y="bottom-only">
-        <SuzukiLogo />
+        <SuzukiLinkLogo />
       </PaddingSection>
     </BgSection>
 
@@ -66,7 +73,7 @@
 
     <BgSection color="main-lightest">
       <PaddingSection y="bottom-only">
-        <SuzukiLogo />
+        <SuzukiLinkLogo />
       </PaddingSection>
     </BgSection>
 

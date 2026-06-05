@@ -3,16 +3,14 @@
 </script>
 
 <template>
-  <a href="https://www.suzuki.co.jp/car/" target="_blank" rel="noopener noreferrer">
-    <img :src="logo" class="suzuki-logo" alt="">
-  </a>
+  <img :src="logo" class="suzuki-logo" alt="スズキ株式会社のロゴ">
 </template>
 
 <style lang="scss" scoped>
   .suzuki-logo {
-    width: clamp(16rem, 24vw,26rem);
+    width: 100%;
     height: 100%;
     display: block;
-    margin: 0 auto;
+    object-fit: contain;
   }
 </style>
