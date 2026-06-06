@@ -5,7 +5,7 @@
   import Introduction from '@/components/section/Introduction.vue';
   import Hero from '@/components/section/Hero.vue';
   import Card from '@/components/layout/card/Card.vue';
-  import { cardData } from '@/data/card/home'
+  import { cardData } from '@/data/card/home';
   import Access from '@/components/layout/store/Access.vue';
   import Panel from '@/components/layout/panel/Panel.vue';
 </script>

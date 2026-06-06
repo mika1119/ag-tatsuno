@@ -1,6 +1,6 @@
 <script setup>
   import LineTitle from '@/components/title/LineTitle.vue';
-  import FlowCard from '@/components/layout/flow/FlowCard.vue'
+  import FlowCard from '@/components/layout/flow/FlowCard.vue';
 
   defineProps({
     lineTitle: {

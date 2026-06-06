@@ -1,6 +1,6 @@
 <script setup>
-  import { useRoute } from 'vue-router'
-  import { useHead } from '@unhead/vue'
+  import { useRoute } from 'vue-router';
+  import { useHead } from '@unhead/vue';
 
   const route = useRoute()
 

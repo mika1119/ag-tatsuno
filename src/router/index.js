@@ -1,12 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/Home.vue'
-import GeneralMaintenance from '@/views/GeneralMaintenance.vue'
-import Insurance from '@/views/Insurance.vue'
-import NewCarSales from '@/views/NewCarSales.vue'
-import SheetMetalPaint from '@/views/SheetMetalPaint.vue'
-import StoreGuide from '@/views/StoreGuide.vue'
-import UsedCarSales from '@/views/UsedCarSales.vue'
-import VehicleInspection from '@/views/VehicleInspection.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '@/views/Home.vue';
+import GeneralMaintenance from '@/views/GeneralMaintenance.vue';
+import Insurance from '@/views/Insurance.vue';
+import NewCarSales from '@/views/NewCarSales.vue';
+import SheetMetalPaint from '@/views/SheetMetalPaint.vue';
+import StoreGuide from '@/views/StoreGuide.vue';
+import UsedCarSales from '@/views/UsedCarSales.vue';
+import VehicleInspection from '@/views/VehicleInspection.vue';
 
 const routes = [
   {

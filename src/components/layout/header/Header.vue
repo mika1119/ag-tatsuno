@@ -1,6 +1,6 @@
 <script setup>
-  import { ref, watch } from 'vue'
-  import { useRoute } from 'vue-router'
+  import { ref, watch } from 'vue';
+  import { useRoute } from 'vue-router';
 
   import HeaderLogo from '@/components/layout/header/HeaderLogo.vue';
   import HeaderButton from '@/components/layout/header/HeaderButton.vue';

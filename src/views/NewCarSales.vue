@@ -5,10 +5,10 @@
   import PageTitle from '@/components/title/PageTitle.vue';
   import ImageModal from '@/components/layout/modal/ImageModal.vue';
   import Card from '@/components/layout/card/Card.vue';
-  import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales'
+  import { keiCarData, passengerCarData, welfareCarData, commercialCarData } from '@/data/card/newCarSales';
   import SuzukiLinkLogo from '@/components/logo/SuzukiLinkLogo.vue';
-  import Flow from '@/components/layout/flow/Flow.vue'
-  import { flowData } from '@/data/flow/newCarSales'
+  import Flow from '@/components/layout/flow/Flow.vue';
+  import { flowData } from '@/data/flow/newCarSales';
 </script>
 
 <template>
