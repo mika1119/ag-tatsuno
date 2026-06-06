@@ -27,6 +27,8 @@
         { name: 'twitter:title', content: title },
         { name: 'twitter:description', content: description },
         { name: 'twitter:image', content: `${siteUrl}/ogp.png` },
+        // TODO：公開前に削除
+        { name: 'robots', content: 'noindex, nofollow' },
       ],
       link: [
         { rel: 'canonical', href: url },

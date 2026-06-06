@@ -1,0 +1,9 @@
+# TODO：公開時に以下へ変更
+#
+# User-agent: *
+# Disallow:
+#
+# Sitemap: https://xxxxx.com/sitemap.xml
+
+User-agent: *
+Disallow: /
