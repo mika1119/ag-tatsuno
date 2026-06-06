@@ -54,7 +54,7 @@
 
 <template>
   <div class="gallery">
-    <img v-for="(image, index) in images" :key="index" :src="image" @click="openModal(index)" class="gallery__thumbnail">
+    <img v-for="(image, index) in images" :key="index" :src="image" @click="openModal(index)" class="gallery__thumbnail" alt="">
   </div>
 
   <Transition name="fade">
@@ -62,7 +62,7 @@
       <i class="fa-solid fa-xmark close" @click="closeModal"></i>
       <i class="fa-solid fa-angle-left arrow arrow__left" @click.stop="prevImage"></i>
       <Transition name="image-fade" mode="out-in">
-        <img :key="currentIndex" :src="images[currentIndex]" class="modal__image" :style="{ transform: `scale(${scale})` }">
+        <img :key="currentIndex" :src="images[currentIndex]" class="modal__image" alt="" :style="{ transform: `scale(${scale})` }">
       </Transition>
       <i class="fa-solid fa-angle-right arrow arrow__right" @click.stop="nextImage"></i>
 
