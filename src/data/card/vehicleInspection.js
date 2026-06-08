@@ -1,4 +1,4 @@
-import sectionImage from '@/assets/images/service/service-01.webp';
+import sectionImage from '@/assets/images/service/service-01.webp?w=400;800;1600&format=webp&as=srcset';
 
 export const cardData = [
   {
