@@ -15,7 +15,10 @@
           {{ item.label }}
         </RouterLink>
       </li>
-      <InfoButton device="mobile" />
+
+      <li class="header-nav__button">
+        <InfoButton device="mobile" />
+      </li>
     </ul>
   </nav>
 </template>
