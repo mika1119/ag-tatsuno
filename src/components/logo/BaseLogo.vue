@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <img :src="logo" class="base-logo" alt="オートガレージTATSUNO">
+  <img :src="logo" class="base-logo" alt="">
 </template>
 
 <style lang="scss" scoped>
