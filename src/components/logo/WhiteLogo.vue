@@ -9,7 +9,7 @@
 <style lang="scss" scoped>
   .white-logo {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
   }
 </style>
