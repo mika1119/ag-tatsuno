@@ -19,5 +19,6 @@ export default defineConfig({
         additionalData: '@use "@/assets/scss/base" as *;'
       }
     }
-  }
+  },
+  base: '/ag-tatsuno/',
 })
