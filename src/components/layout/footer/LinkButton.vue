@@ -14,11 +14,22 @@
       default: 'left'
     }
   })
+
+  const isInternal = (url) => {
+    return url.startsWith('/')
+  }
 </script>
 
 <template>
   <div class="link-button-wrap">
-    <a :href="url" class="link-button">
+    <RouterLink v-if="isInternal($props.url)" :to="$props.url" class="link-button">
+      <div class="link-button__text">
+        {{ text }}
+      </div>
+      <i :class="['link-button__icon', icon, `link-button__icon_${position}`]"></i>
+    </RouterLink>
+
+    <a v-else :href="$props.url" class="link-button">
       <div class="link-button__text">
         {{ text }}
       </div>
