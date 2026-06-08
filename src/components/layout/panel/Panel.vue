@@ -48,7 +48,7 @@
     gap: 1rem;
     &__image {
       width: 100%;
-      height: auto;
+      height: 100%;
       background-color: $white;
       padding: 1rem;
       @include display(md) {
