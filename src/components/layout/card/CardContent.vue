@@ -1,4 +1,5 @@
 <script setup>
+  import CardImage from '@/components/layout/card/CardImage.vue';
   import LineTitle from '@/components/title/LineTitle.vue';
 
   defineProps({
@@ -8,7 +9,7 @@
 
 <template>
   <div class="card-content">
-    <img v-if="item.image" :src="item.image" :class="['card-content__image', item.fit ? 'card-content__image_contain' : '']" :alt="item.title">
+    <CardImage :item="item" />
     <LineTitle :text="item.title" :size="item.size" :position="item.position" />
 
     <div v-if="item.gridList" class="card-content-grid-list">
@@ -42,14 +43,6 @@
     padding: 1.6rem;
     @include display(md) {
       padding: 3.2rem;
-    }
-    &__image {
-      width: 100%;
-      aspect-ratio: 3 / 2;
-      object-fit: cover;
-      &_contain {
-        object-fit: contain;
-      }
     }
     &__desc {
       display: grid;

@@ -1,8 +1,6 @@
-import sectionImage from '@/assets/images/service/service-01.webp?w=400;800;1600&format=webp&as=srcset';
-
 export const cardData = [
   {
-    image: sectionImage,
+    imagePath: 'service/service-01.webp',
     title: '愛車の車検整備は、ぜひプロフェッショナルである当社へご相談ください。',
     description: [
       [

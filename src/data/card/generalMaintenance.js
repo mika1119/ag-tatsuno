@@ -1,8 +1,6 @@
-import sectionImage from '@/assets/images/service/service-02.webp';
-
 export const cardData = [
   {
-    image: sectionImage,
+    imagePath: 'service/service-02.webp',
     title: '愛車に長く乗る為に、定期的なメンテナンスを。',
     description: [
       [
