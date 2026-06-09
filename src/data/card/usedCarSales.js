@@ -1,8 +1,6 @@
-import sectionImage from '@/assets/images/service/service-05.webp';
-
 export const cardData = [
   {
-    image: sectionImage,
+    imagePath: 'service/service-05.webp',
     title: 'ご希望の中古車をお探しします！\n\n当社の中古車販売は、限られた展示車の中から選ぶのではなく、お客様のご要望を充分にお聞きしたうえでお客様ご納得の1台をお探しする『バックオーダー販売』です。',
     description: [
       [

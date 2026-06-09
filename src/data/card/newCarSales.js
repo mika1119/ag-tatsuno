@@ -1,44 +1,6 @@
-import keiCar1 from '@/assets/images/car/kei-car/car-01.webp';
-import keiCar2 from '@/assets/images/car/kei-car/car-02.webp';
-import keiCar3 from '@/assets/images/car/kei-car/car-03.webp';
-import keiCar4 from '@/assets/images/car/kei-car/car-04.webp';
-import keiCar5 from '@/assets/images/car/kei-car/car-05.webp';
-import keiCar6 from '@/assets/images/car/kei-car/car-06.webp';
-import keiCar7 from '@/assets/images/car/kei-car/car-07.webp';
-import keiCar8 from '@/assets/images/car/kei-car/car-08.webp';
-import keiCar9 from '@/assets/images/car/kei-car/car-09.webp';
-import keiCar10 from '@/assets/images/car/kei-car/car-10.webp';
-import keiCar11 from '@/assets/images/car/kei-car/car-11.webp';
-import keiCar12 from '@/assets/images/car/kei-car/car-12.webp';
-import keiCar13 from '@/assets/images/car/kei-car/car-13.webp';
-import keiCar14 from '@/assets/images/car/kei-car/car-14.webp';
-
-import passengerCar1 from '@/assets/images/car/passenger-car/car-01.webp';
-import passengerCar2 from '@/assets/images/car/passenger-car/car-02.webp';
-import passengerCar3 from '@/assets/images/car/passenger-car/car-03.webp';
-import passengerCar4 from '@/assets/images/car/passenger-car/car-04.webp';
-import passengerCar5 from '@/assets/images/car/passenger-car/car-05.webp';
-import passengerCar6 from '@/assets/images/car/passenger-car/car-06.webp';
-import passengerCar7 from '@/assets/images/car/passenger-car/car-07.webp';
-import passengerCar8 from '@/assets/images/car/passenger-car/car-08.webp';
-import passengerCar9 from '@/assets/images/car/passenger-car/car-09.webp';
-
-import welfareCar1 from '@/assets/images/car/welfare-car/car-01.webp';
-import welfareCar2 from '@/assets/images/car/welfare-car/car-02.webp';
-import welfareCar3 from '@/assets/images/car/welfare-car/car-03.webp';
-import welfareCar4 from '@/assets/images/car/welfare-car/car-04.webp';
-import welfareCar5 from '@/assets/images/car/welfare-car/car-05.webp';
-
-import commercialCar1 from '@/assets/images/car/commercial-car/car-01.webp';
-import commercialCar2 from '@/assets/images/car/commercial-car/car-02.webp';
-import commercialCar3 from '@/assets/images/car/commercial-car/car-03.webp';
-import commercialCar4 from '@/assets/images/car/commercial-car/car-04.webp';
-import commercialCar5 from '@/assets/images/car/commercial-car/car-05.webp';
-import commercialCar6 from '@/assets/images/car/commercial-car/car-06.webp';
-
 export const keiCarData = [
   {
-    image: keiCar1,
+    imagePath: 'car/kei-car/car-01.webp',
     title: 'ハスラー',
     size: 'font-md',
     description: [
@@ -49,7 +11,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar2,
+    imagePath: 'car/kei-car/car-02.webp',
     title: 'ハスラー JスタイルⅡ',
     size: 'font-md',
     description: [
@@ -60,7 +22,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar3,
+    imagePath: 'car/kei-car/car-03.webp',
     title: 'ラパン',
     size: 'font-md',
     description: [
@@ -71,7 +33,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar4,
+    imagePath: 'car/kei-car/car-04.webp',
     title: 'ハスラー LC',
     size: 'font-md',
     description: [
@@ -82,7 +44,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar5,
+    imagePath: 'car/kei-car/car-05.webp',
     title: 'ワゴンＲ',
     size: 'font-md',
     description: [
@@ -93,7 +55,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar6,
+    imagePath: 'car/kei-car/car-06.webp',
     title: 'ワゴンＲ スティングレー',
     size: 'font-md',
     description: [
@@ -104,7 +66,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar7,
+    imagePath: 'car/kei-car/car-07.webp',
     title: 'ワゴンＲ スマイル',
     size: 'font-md',
     description: [
@@ -115,7 +77,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar8,
+    imagePath: 'car/kei-car/car-08.webp',
     title: 'アルト',
     size: 'font-md',
     description: [
@@ -126,7 +88,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar9,
+    imagePath: 'car/kei-car/car-09.webp',
     title: 'エブリイワゴン',
     size: 'font-md',
     description: [
@@ -137,7 +99,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar10,
+    imagePath: 'car/kei-car/car-10.webp',
     title: 'ジムニー',
     size: 'font-md',
     description: [
@@ -148,7 +110,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar11,
+    imagePath: 'car/kei-car/car-11.webp',
     title: 'スペーシア',
     size: 'font-md',
     description: [
@@ -159,7 +121,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar12,
+    imagePath: 'car/kei-car/car-12.webp',
     title: 'スペーシア カスタム',
     size: 'font-md',
     description: [
@@ -170,7 +132,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar13,
+    imagePath: 'car/kei-car/car-13.webp',
     title: 'スペーシア ギア',
     size: 'font-md',
     description: [
@@ -181,7 +143,7 @@ export const keiCarData = [
     fit: true
   },
   {
-    image: keiCar14,
+    imagePath: 'car/kei-car/car-14.webp',
     title: 'スペーシア ギア マイスタイル',
     size: 'font-md',
     description: [
@@ -195,7 +157,7 @@ export const keiCarData = [
 
 export const passengerCarData = [
   {
-    image: passengerCar1,
+    imagePath: 'car/passenger-car/car-01.webp',
     title: 'スイフト',
     size: 'font-md',
     description: [
@@ -206,7 +168,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar2,
+    imagePath: 'car/passenger-car/car-02.webp',
     title: 'スイフト スポーツ',
     size: 'font-md',
     description: [
@@ -217,7 +179,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar3,
+    imagePath: 'car/passenger-car/car-03.webp',
     title: 'ソリオ',
     size: 'font-md',
     description: [
@@ -228,7 +190,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar4,
+    imagePath: 'car/passenger-car/car-04.webp',
     title: 'ソリオ バンディット',
     size: 'font-md',
     description: [
@@ -239,7 +201,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar5,
+    imagePath: 'car/passenger-car/car-05.webp',
     title: 'ランディ',
     size: 'font-md',
     description: [
@@ -250,7 +212,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar6,
+    imagePath: 'car/passenger-car/car-06.webp',
     title: 'イグニス',
     size: 'font-md',
     description: [
@@ -261,7 +223,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar7,
+    imagePath: 'car/passenger-car/car-07.webp',
     title: 'エクシード',
     size: 'font-md',
     description: [
@@ -272,7 +234,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar8,
+    imagePath: 'car/passenger-car/car-08.webp',
     title: 'クロスビー',
     size: 'font-md',
     description: [
@@ -283,7 +245,7 @@ export const passengerCarData = [
     fit: true
   },
   {
-    image: passengerCar9,
+    imagePath: 'car/passenger-car/car-09.webp',
     title: 'ジムニー シエラ',
     size: 'font-md',
     description: [
@@ -297,7 +259,7 @@ export const passengerCarData = [
 
 export const welfareCarData = [
   {
-    image: welfareCar1,
+    imagePath: 'car/welfare-car/car-01.webp',
     title: 'エブリイワゴン 車いす移動車',
     size: 'font-md',
     description: [
@@ -308,7 +270,7 @@ export const welfareCarData = [
     fit: true
   },
   {
-    image: welfareCar2,
+    imagePath: 'car/welfare-car/car-02.webp',
     title: 'スペーシア 車いす移動車',
     size: 'font-md',
     description: [
@@ -319,7 +281,7 @@ export const welfareCarData = [
     fit: true
   },
   {
-    image: welfareCar3,
+    imagePath: 'car/welfare-car/car-03.webp',
     title: 'ワゴンR 昇降シート車',
     size: 'font-md',
     description: [
@@ -330,7 +292,7 @@ export const welfareCarData = [
     fit: true
   },
   {
-    image: welfareCar4,
+    imagePath: 'car/welfare-car/car-04.webp',
     title: 'ワゴンR カスタムZ昇降シート車',
     size: 'font-md',
     description: [
@@ -341,7 +303,7 @@ export const welfareCarData = [
     fit: true
   },
   {
-    image: welfareCar5,
+    imagePath: 'car/welfare-car/car-05.webp',
     title: 'エブリイ 車いす移動車',
     size: 'font-md',
     description: [
@@ -355,7 +317,7 @@ export const welfareCarData = [
 
 export const commercialCarData = [
   {
-    image: commercialCar1,
+    imagePath: 'car/commercial-car/car-01.webp',
     title: 'キャリイ',
     size: 'font-md',
     description: [
@@ -366,7 +328,7 @@ export const commercialCarData = [
     fit: true
   },
   {
-    image: commercialCar2,
+    imagePath: 'car/commercial-car/car-02.webp',
     title: 'キャリイ KCスペシャル・農繁スペシャル',
     size: 'font-md',
     description: [
@@ -377,7 +339,7 @@ export const commercialCarData = [
     fit: true
   },
   {
-    image: commercialCar3,
+    imagePath: 'car/commercial-car/car-03.webp',
     title: 'キャリイ 特装車',
     size: 'font-md',
     description: [
@@ -388,7 +350,7 @@ export const commercialCarData = [
     fit: true
   },
   {
-    image: commercialCar4,
+    imagePath: 'car/commercial-car/car-04.webp',
     title: 'スーパーキャリイ',
     size: 'font-md',
     description: [
@@ -399,7 +361,7 @@ export const commercialCarData = [
     fit: true
   },
   {
-    image: commercialCar5,
+    imagePath: 'car/commercial-car/car-05.webp',
     title: 'スペーシア ベース',
     size: 'font-md',
     description: [
@@ -410,7 +372,7 @@ export const commercialCarData = [
     fit: true
   },
   {
-    image: commercialCar6,
+    imagePath: 'car/commercial-car/car-06.webp',
     title: 'エブリイ',
     size: 'font-md',
     description: [
