@@ -11,7 +11,7 @@ const cardSrcsets = import.meta.glob(
   '@/assets/images/**/*.webp',
   {
     eager: true,
-    query: '?w=360;720;1440&format=webp&as=srcset',
+    query: '?w=360;480;720;960;1280;1440;1920&format=webp&as=srcset',
     import: 'default'
   }
 )
