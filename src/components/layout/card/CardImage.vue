@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <img v-if="imageData?.image" :src="imageData.image" :srcset="imageData.srcset" sizes="(max-width: 767px) 100vw, 928px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
+  <img v-if="imageData?.image" :src="imageData.image" :srcset="imageData.srcset" sizes="(max-width: 767px) 100vw, 712px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
 </template>
 
 <style lang="scss" scoped>
