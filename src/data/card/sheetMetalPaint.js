@@ -1,8 +1,6 @@
-import sectionImage from '@/assets/images/service/service-03.webp';
-
 export const cardData = [
   {
-    image: sectionImage,
+    imagePath: 'service/service-03.webp',
     title: '小さなキズやヘコミから大きな破損まで、幅広い処理に対応しております。',
     description: [
       [

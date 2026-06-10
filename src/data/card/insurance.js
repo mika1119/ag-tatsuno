@@ -1,8 +1,6 @@
-import sectionImage from '@/assets/images/service/service-06.webp';
-
 export const cardData = [
   {
-    image: sectionImage,
+    imagePath: 'service/service-06.webp',
     title: '安心・満足・信頼のプロ保険代理店です。',
     description: [
       [
