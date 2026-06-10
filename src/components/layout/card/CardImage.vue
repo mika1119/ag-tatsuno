@@ -1,11 +1,20 @@
 <script setup>
-  defineProps({
+  import { computed } from 'vue';
+  import { getImage } from '@/utils/cardImages';
+
+  const props = defineProps({
     item: Object
+  })
+
+  const imageData = computed(() => {
+    if (!props.item?.imagePath) return null
+    return getImage(props.item.imagePath)
   })
 </script>
 
 <template>
-  <img v-if="item.image" :src="item.image" :srcset="item.srcset" sizes="(max-width: 767px) 100vw, 928px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
+  <!-- TODO：サイズ調整必要 -->
+  <img v-if="imageData?.image" :src="imageData.image" :srcset="imageData.srcset" sizes="(max-width: 375px) 100vw, (max-width: 576px) 100vw, (max-width: 768px) 50vw, (max-width: 992px) 33vw, 360px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
 </template>
 
 <style lang="scss" scoped>

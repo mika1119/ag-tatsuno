@@ -1,53 +1,43 @@
-import sectionImage1 from '@/assets/images/service/service-01.webp';
-import sectionImage2 from '@/assets/images/service/service-02.webp';
-import sectionImage3 from '@/assets/images/service/service-03.webp';
-import sectionImage4 from '@/assets/images/service/service-04.webp';
-import sectionImage5 from '@/assets/images/service/service-05.webp';
-import sectionImage6 from '@/assets/images/service/service-06.webp';
-import sectionImage7 from '@/assets/images/service/service-07.webp';
-import sectionImage8 from '@/assets/images/service/service-08.webp';
-import sectionImage9 from '@/assets/images/service/service-09.webp';
-
 export const cardData = [
   {
-    image: sectionImage1,
+    imagePath: 'service/service-01.webp',
     title: '車検整備',
     position: 'center',
     link: '/vehicle-inspection'
   },
   {
-    image: sectionImage2,
+    imagePath: 'service/service-02.webp',
     title: '一般整備',
     position: 'center',
     link: '/general-maintenance'
   },
   {
-    image: sectionImage3,
+    imagePath: 'service/service-03.webp',
     title: '板金塗装',
     position: 'center',
     link: '/sheet-metal-paint'
   },
   {
-    image: sectionImage4,
+    imagePath: 'service/service-04.webp',
     title: '新車販売',
     position: 'center',
     link: '/new-car-sales',
     fit: true
   },
   {
-    image: sectionImage5,
+    imagePath: 'service/service-05.webp',
     title: '中古車販売',
     position: 'center',
     link: '/used-car-sales'
   },
   {
-    image: sectionImage6,
+    imagePath: 'service/service-06.webp',
     title: '保険',
     position: 'center',
     link: '/insurance'
   },
   {
-    image: sectionImage7,
+    imagePath: 'service/service-07.webp',
     title: '電装整備',
     position: 'center',
     description: [
@@ -57,7 +47,7 @@ export const cardData = [
     ]
   },
   {
-    image: sectionImage8,
+    imagePath: 'service/service-08.webp',
     title: 'レッカー業務',
     position: 'center',
     description: [
@@ -67,7 +57,7 @@ export const cardData = [
     ]
   },
   {
-    image: sectionImage9,
+    imagePath: 'service/service-09.webp',
     title: 'ボディーコーティング',
     position: 'center',
     description: [
