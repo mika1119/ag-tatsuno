@@ -1,6 +1,6 @@
 <script setup>
   import { computed } from 'vue';
-  import { getImage } from '@/utils/cardSrcImages';
+  import { getImage } from '@/utils/cardImages';
 
   const props = defineProps({
     item: Object
@@ -13,7 +13,8 @@
 </script>
 
 <template>
-  <img v-if="imageData?.image" :src="imageData.image" :srcset="imageData.srcset" sizes="(max-width: 767px) 100vw, 712px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
+  <!-- TODO：サイズ調整必要 -->
+  <img v-if="imageData?.image" :src="imageData.image" :srcset="imageData.srcset" sizes="(max-width: 375px) 100vw, (max-width: 576px) 100vw, (max-width: 768px) 50vw, (max-width: 992px) 33vw, 360px" :class="['card-image', item.fit ? 'card-image_contain' : '']" :alt="item.title">
 </template>
 
 <style lang="scss" scoped>
