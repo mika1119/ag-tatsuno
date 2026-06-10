@@ -2,7 +2,7 @@ const images = import.meta.glob(
   '@/assets/images/**/*.webp',
   {
     eager: true,
-    query: '?w=750&format=webp',
+    query: '?w=800&format=webp',
     import: 'default'
   }
 )
@@ -11,7 +11,7 @@ const srcsets = import.meta.glob(
   '@/assets/images/**/*.webp',
   {
     eager: true,
-    query: '?w=750;920;1200&format=webp&as=srcset',
+    query: '?w=400;800;1200;1600&format=webp&as=srcset',
     import: 'default'
   }
 )
