@@ -1,24 +1,30 @@
+import { IMAGE_SIZES } from '@/utils/imageSizes';
+
 export const cardData = [
   {
     imagePath: 'service/service-01.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '車検整備',
     position: 'center',
     link: '/vehicle-inspection'
   },
   {
     imagePath: 'service/service-02.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '一般整備',
     position: 'center',
     link: '/general-maintenance'
   },
   {
     imagePath: 'service/service-03.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '板金塗装',
     position: 'center',
     link: '/sheet-metal-paint'
   },
   {
     imagePath: 'service/service-04.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '新車販売',
     position: 'center',
     link: '/new-car-sales',
@@ -26,18 +32,21 @@ export const cardData = [
   },
   {
     imagePath: 'service/service-05.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '中古車販売',
     position: 'center',
     link: '/used-car-sales'
   },
   {
     imagePath: 'service/service-06.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '保険',
     position: 'center',
     link: '/insurance'
   },
   {
     imagePath: 'service/service-07.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: '電装整備',
     position: 'center',
     description: [
@@ -48,6 +57,7 @@ export const cardData = [
   },
   {
     imagePath: 'service/service-08.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: 'レッカー業務',
     position: 'center',
     description: [
@@ -58,6 +68,7 @@ export const cardData = [
   },
   {
     imagePath: 'service/service-09.webp',
+    sizes: IMAGE_SIZES.changeColumn,
     title: 'ボディーコーティング',
     position: 'center',
     description: [
