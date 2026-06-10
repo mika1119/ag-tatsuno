@@ -1,18 +1,19 @@
-import panel1 from '@/assets/images/panel/panel-01.webp';
-import panel2 from '@/assets/images/panel/panel-02.webp';
-import panel3 from '@/assets/images/panel/panel-03.webp';
+import { IMAGE_SIZES } from '@/utils/imageSizes';
 
 export const panelData = [
   {
-    image: panel1,
+    imagePath: 'panel/panel-01.webp',
+    sizes: IMAGE_SIZES.threeColumn,
     text: 'マスク着用'
   },
   {
-    image: panel2,
+    imagePath: 'panel/panel-02.webp',
+    sizes: IMAGE_SIZES.threeColumn,
     text: 'アルコール消毒液'
   },
   {
-    image: panel3,
+    imagePath: 'panel/panel-03.webp',
+    sizes: IMAGE_SIZES.threeColumn,
     text: '換気の徹底'
   }
 ]
