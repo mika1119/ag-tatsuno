@@ -1,9 +1,12 @@
 <script setup>
-  import logo from '@/assets/images/logo/white-logo.webp';
+  import { getImage } from '@/utils/imageSrcsets';
+  import { IMAGE_SIZES } from '@/utils/imageSizes';
+
+  const logo = getImage('logo/white-logo.webp');
 </script>
 
 <template>
-  <img :src="logo" class="white-logo" alt="オートガレージTATSUNO">
+  <img :src="logo.image" :srcset="logo.srcset" :sizes="IMAGE_SIZES.logo" class="white-logo" alt="オートガレージTATSUNO">
 </template>
 
 <style lang="scss" scoped>

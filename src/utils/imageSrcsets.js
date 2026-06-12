@@ -11,7 +11,7 @@ const srcsets = import.meta.glob(
   '@/assets/images/**/*.webp',
   {
     eager: true,
-    query: '?w=400;800;1000;1200;1600&format=webp&quality=80&as=srcset',
+    query: '?w=200;400;800;1200;1600&format=webp&as=srcset',
     import: 'default'
   }
 )
@@ -22,5 +22,5 @@ export const getImage = (path) => {
   return {
     image: images[key],
     srcset: srcsets[key]
-  }  
+  }
 }

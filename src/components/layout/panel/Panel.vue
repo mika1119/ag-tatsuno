@@ -1,5 +1,6 @@
 <script setup>
   import { panelData } from '@/data/panel/home';
+  import { getImage } from '@/utils/imageSrcsets';
 </script>
 
 <template>
@@ -8,7 +9,7 @@
 
     <div class="panel">
       <div v-for="item in panelData" :key="item.text" :item="item" class="panel-item">
-        <img :src="item.image" class="panel-item__image" :alt="item.text">
+        <img :src="getImage(item.imagePath).image" :srcset="getImage(item.imagePath).srcset" :sizes="item.sizes" class="panel-item__image" :alt="item.text">
         <div class="panel-item__text">{{ item.text }}</div>
       </div>
     </div>
