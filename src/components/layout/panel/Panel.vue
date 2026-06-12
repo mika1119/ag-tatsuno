@@ -1,6 +1,6 @@
 <script setup>
   import { panelData } from '@/data/panel/home';
-  import { getImage } from '@/utils/imageSrcsets';  
+  import { getImage } from '@/utils/imageSrcsets';
 </script>
 
 <template>
